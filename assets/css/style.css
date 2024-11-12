@@ -394,6 +394,7 @@ h3 {
 
 .card .card-content {
   padding-bottom: 30px;
+  min-height: 175px;
 }
 
 .card .card-content p {
@@ -526,6 +527,19 @@ a.hoverline:hover {
   bottom: 6px;
   left: 20px;
   position: relative;
+}
+
+/* Set all education cards to the same height */
+.education-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+
+/* Ensure card content takes up full space for equal alignment */
+.education-card .card-content {
+    flex-grow: 1;
 }
 
 #experience .col.s12.m2 {
