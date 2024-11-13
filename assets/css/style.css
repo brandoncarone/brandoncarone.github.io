@@ -372,6 +372,7 @@ h3 {
 
 .card {
   margin-bottom: 60px;
+  flex: 1 1 300px; /* Allows resizing while maintaining minimum width */
 }
 
 .card .role {
@@ -379,6 +380,8 @@ h3 {
   position: absolute;
   right: 38px;
   top: 35px;
+  margin-top: 5px;
+  font-weight: bold;
 }
 
 .card li a {
@@ -395,6 +398,8 @@ h3 {
 .card .card-content {
   padding-bottom: 30px;
   min-height: 175px;
+  overflow: visible;  /* Ensures text will expand the card */
+  white-space: normal; /* Allows wrapping of long text */
 }
 
 .card .card-content p {
@@ -449,6 +454,7 @@ h3 {
 
 .card .card-title {
   font-size: 24px;
+  line-height: 1.5;
 }
 
 .card .card-content .card-title {
@@ -505,6 +511,8 @@ a.hoverline:hover {
 #experience .card-content .row {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
+  flex-direction: column;
+  display: flex;
 }
 
 .card.large .card-image {
@@ -664,7 +672,18 @@ small {
     position: relative;
     right: initial;
     top: initial;
+    margin-top: 5px;
+    font-weight: bold;
   }
+}
+.section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.section h5 {
+  color: #004d40; /* Adjust this color to match your theme */
+  margin-top: 30px;
 }
 
 @media (max-width: 600px) {
@@ -705,4 +724,20 @@ small {
   #intro.section {
     background-position-x: 30%;
   }
+}
+
+.organization-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.organization-item .title {
+  flex: 1;
+  text-align: left;
+}
+
+.organization-item .dates {
+  text-align: right;
+  white-space: nowrap;
 }

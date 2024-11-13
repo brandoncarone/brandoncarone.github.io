@@ -81,16 +81,8 @@
             class="mdi-social-person small"></i><span>About</span></a>
       </li>
       <li class="bold">
-        <!--
-        ICONS:
-        -->
         <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
             class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
       </li>
 
       <li class="bold">
@@ -101,12 +93,24 @@
       </li>
 
       <li class="bold">
-        <!--
-        ICONS:
-        mdi-action-assessment
-        mdi-social-poll
-        mdi-av-equalizer
-        -->
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Publications section" href="#publications" class="waves-effect waves-dark teal-text">
+          <i class="mdi-av-my-library-books small"></i><span>Publications</span>
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Talks and Media section" href="#workshops-presentations" class="waves-effect waves-dark teal-text">
+          <i class="mdi-av-mic small"></i><span>Talks & Media</span>
+        </a>
+      </li>
+
+      <li class="bold">
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
             class="mdi-action-assessment small"></i><span>Skills</span></a>
       </li>
@@ -165,14 +169,28 @@
         <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
             class="mdi-social-school small"></i><span>Education</span></a>
       </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+
       </li>
       <li class="bold">
         <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
             class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Publications section" href="#publications" class="waves-effect waves-dark teal-text">
+          <i class="mdi-av-my-library-books small"></i><span>Publications</span>
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Talks and Media section" href="#workshops-presentations" class="waves-effect waves-dark teal-text">
+          <i class="mdi-av-mic small"></i><span>Talks & Media</span>
+        </a>
       </li>
       <li class="bold">
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
@@ -267,7 +285,7 @@
       </div>
     </section>
 
-<!-- Seventh Section: Education -->
+<!-- Third Section: Education -->
 <section id="education" class="section scrollspy">
   <h3 class="page-title white-text teal">Education</h3>
   <div class="container">
@@ -327,7 +345,124 @@
   </div>
 </section>
 
-<!-- Third Section: Experience -->
+<!-- Fourth Section: Projects -->
+<section id="projects" class="section scrollspy">
+  <h3 class="page-title white-text teal">Projects</h3>
+  <div class="container">
+    <div class="row">
+
+      <!-- Project 1: SoundSignature -->
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <!-- Replace this image with a relevant image for SoundSignature -->
+            <img alt="SoundSignature app" src="/assets/img/project-soundsignature.png" style="height: 100%; width: 100%" class="activator" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator teal-text hoverline">SoundSignature<i class="mdi-navigation-more-vert right"></i></span>
+            <p>
+              Developed an app that integrates MIR with AI to analyze users' favorite songs.
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+            <ul>
+              <li>Developed SoundSignature, an interactive application that integrates MIR with AI to analyze users’ favorite songs and provide
+personalized insights into their musical preferences</li>
+              <li><b>Tools:</b> Python, Machine Learning, MIR, Natural Language Processing</li>
+            </ul>
+            <div class="card-action">
+              <a href="https://soundsignature.streamlit.app/" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" data-tooltip="View Online"><i class="fa fa-external-link"></i></a>
+              <a href="https://github.com/BrandonCarone/SoundSignature" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" data-tooltip="View Source"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Automated Jazz Chord Annotations -->
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <!-- Replace with a relevant image for Jazz Chord Annotations project -->
+            <img alt="Jazz Chord Annotations" src="/assets/img/project-chordictor.png" style="height: 100%; width: 100%" class="activator" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator teal-text hoverline">Automated Jazz Chord Annotations<i class="mdi-navigation-more-vert right"></i></span>
+            <p>
+              Python tool for MIDI that labels jazz chords for dataset creation.
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+            <ul>
+              <li>Planning to use the tool to expand the CREMA Chord Recognition dataset with extended jazz chords.</li>
+              <li><b>Tools:</b> Python, MIR, Music Analysis, Chord Recognition, MIDI</li>
+            </ul>
+            <div class="card-action">
+              <a href="https://github.com/BrandonCarone/CHORDictor" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" data-tooltip="View Source"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: LSTM Neural Networks for fMRI Data -->
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <!-- Replace with a relevant image for LSTM Neural Networks project -->
+            <img alt="LSTM Neural Networks for fMRI Data" src="/assets/img/project-neuromatch.png" style="height: 100%; width: 100%" class="activator" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator teal-text hoverline">LSTM Neural Networks for fMRI Data<i class="mdi-navigation-more-vert right"></i></span>
+            <p>
+              Developed and optimized LSTM networks to analyze fMRI data.
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+            <ul>
+              <li>Used in NeuroMatch Academy to explore fMRI data and its applications in understanding brain activity patterns, such as classifying social vs. nonsocial interactions.</li>
+              <li><b>Tools:</b> Python, PyTorch, Keras, Machine Learning, fMRI Analysis</li>
+            </ul>
+            <div class="card-action">
+              <a href="https://github.com/BrandonCarone/NeuroMatch_Project" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" data-tooltip="View Source"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4: Chord Recognition & Similarity Project -->
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <!-- Replace this image with a relevant image for Chord Recognition Project -->
+            <img alt="Chord Similarity Project" src="/assets/img/project-crema.png" style="height: 100%; width: 100%" class="activator" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator teal-text hoverline">Chord Similarity<i class="mdi-navigation-more-vert right"></i></span>
+            <p>
+              Modified CREMA model to explore alignment of human perception with the model's deep features.
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+            <ul>
+              <li>Implemented to assess how human perception of chord similarity aligns with the CREMA model's deep feature representations.</li>
+              <li>Collected and analyzed human similarity judgments on ii-V-I chord variations.</li>
+              <li><b>Tools:</b> Python, Machine Learning, Tensorflow, Keras, Audio Analysis, Chord Recognition</li>
+            </ul>
+            <div class="card-action">
+              <a href="https://github.com/BrandonCarone/CREMA_Similarity" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" data-tooltip="View Source"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Fifth Section: Experience -->
 <section id="experience" class="section scrollspy">
   <h3 class="page-title white-text teal">Experience</h3>
   <div class="container">
@@ -349,7 +484,7 @@
         <div class="role brown-text text-darken-2">Graduate Student Researcher</div>
         <ul>
           <li>Investigating how human auditory perception of chords aligns with the deep network features of the CREMA chord recognition model, demonstrating alignment for musically trained participants.</li>
-          <li>Exploring neural mechanisms of music memory with behavioral and fMRI data, showing that songs are better remembered when they are both highly liked and novel.</li>
+          <li>Exploring the neural mechanisms supporting music memory (i.e., what makes a song memorable?) using both behavioral and fMRI data. Using ratings of pleasure and a computational model of music novelty, we show that songs are better remembered when they are highly pleasurable to listen to and novel at the same time.</li>
         </ul>
       </div>
       <div class="card-action">
@@ -406,7 +541,34 @@
       </div>
     </div>
 
-    <!-- Experience 4: Music Mends Minds, Inc. -->
+    <!-- Experience 4: Boutelle Lab, UCSD -->
+    <div class="card">
+      <div class="card-content">
+        <div class="row">
+          <div class="col s12 m2">
+            <!-- Replace with the UCSD logo -->
+            <img alt="UCSD logo" src="/assets/img/exp-ucsd-logo.png" class="responsive-img center-block" />
+          </div>
+          <div class="col s12 m10">
+            <p>
+              <span class="card-title"><a href="https://www.ucsd.edu/" target="_blank" class="teal-text hoverline">Boutelle Lab, UCSD</a></span>
+            </p>
+          </div>
+        </div>
+        <div class="role brown-text text-darken-2">Neuroimaging Operator</div>
+        <ul>
+          <li>Operated structural MRI and multi-band functional MRI scans with children aged 8-12 to study reward sensitivity and obesity risk.</li>
+          <li>Processed neuroimaging data using HCP Pipelines, Freesurfer, FSL, and AFNI.</li>
+          <li>Conducted medical assessments and patient interviews for protocol management.</li>
+        </ul>
+      </div>
+      <div class="card-action">
+        <span>Sep 2020 – Jul 2021 | San Diego, CA</span>
+      </div>
+    </div>
+
+
+    <!-- Experience 5: Music Mends Minds, Inc. -->
     <div class="card">
       <div class="card-content">
         <div class="row">
@@ -432,7 +594,7 @@
       </div>
     </div>
 
-    <!-- Experience 5: Memory and Cognition Lab, UCLA -->
+    <!-- Experience 6: Memory and Cognition Lab, UCLA -->
     <div class="card">
       <div class="card-content">
         <div class="row">
@@ -449,6 +611,7 @@
         <div class="role brown-text text-darken-2">Research Associate</div>
         <ul>
           <li>Completed an honors thesis examining false memories for print advertisements with a sample of 500+ participants from the local community and Amazon Mechanical Turk.</li>
+          <li>Received grant to conduct an independent research study investigating the effects of listening to different musical genres on memory formation.</li>
           <li>Coded the experiment and analyzed data using JASP.</li>
         </ul>
       </div>
@@ -460,98 +623,57 @@
   </div>
 </section>
 
-
-<!-- Fourth Section: Projects -->
-<section id="projects" class="section scrollspy">
-  <h3 class="page-title white-text teal">Projects</h3>
+<!-- Sixth Section: Publications -->
+<section id="publications" class="section scrollspy">
+  <h3 class="page-title white-text teal">Publications</h3>
   <div class="container">
-    <div class="row">
-
-      <!-- Project 1: SoundSignature -->
-      <div class="col s12 m6 l4">
-        <div class="card medium">
-          <div class="card-image waves-effect waves-block waves-light">
-            <!-- Replace this image with a relevant image for SoundSignature -->
-            <img alt="SoundSignature app" src="/assets/img/project-soundsignature.png" style="height: 100%; width: 100%" class="activator" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator teal-text hoverline">SoundSignature<i class="mdi-navigation-more-vert right"></i></span>
-            <p>
-              Developed an interactive app that integrates MIR with AI to analyze users' favorite songs and provide personalized insights.
-            </p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
-            <ul>
-              <li><b>Tools:</b> Python, Machine Learning, Natural Language Processing</li>
-              <li>Feedback showed participants appreciated the app’s personalized music recommendations and insights.</li>
-            </ul>
-            <div class="card-action">
-              <a href="https://soundsignature.streamlit.app/" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" data-tooltip="View Online"><i class="fa fa-external-link"></i></a>
-              <a href="https://github.com/BrandonCarone/SoundSignature" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" data-tooltip="View Source"><i class="fa fa-github"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 2: Automated Jazz Chord Annotations -->
-      <div class="col s12 m6 l4">
-        <div class="card medium">
-          <div class="card-image waves-effect waves-block waves-light">
-            <!-- Replace with a relevant image for Jazz Chord Annotations project -->
-            <img alt="Jazz Chord Annotations" src="/assets/img/project-chordictor.png" style="height: 100%; width: 100%" class="activator" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator teal-text hoverline">Automated Jazz Chord Annotations<i class="mdi-navigation-more-vert right"></i></span>
-            <p>
-              Designing a Python tool for MIDI files that labels jazz chords and enables human-in-the-loop interventions.
-            </p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
-            <ul>
-              <li><b>Tools:</b> Python, MIR, Music Analysis, Chord Recognition, MIDI</li>
-              <li>Planning to use the tool to expand the CREMA Chord Recognition dataset with extended jazz chords.</li>
-            </ul>
-            <div class="card-action">
-              <a href="https://github.com/BrandonCarone/CHORDictor" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" data-tooltip="View Source"><i class="fa fa-github"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project 3: LSTM Neural Networks for fMRI Data -->
-      <div class="col s12 m6 l4">
-        <div class="card medium">
-          <div class="card-image waves-effect waves-block waves-light">
-            <!-- Replace with a relevant image for LSTM Neural Networks project -->
-            <img alt="LSTM Neural Networks for fMRI Data" src="/assets/img/project-neuromatch.png" style="height: 100%; width: 100%" class="activator" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator teal-text hoverline">LSTM Neural Networks for fMRI Data<i class="mdi-navigation-more-vert right"></i></span>
-            <p>
-              Developed and optimized LSTM neural networks to analyze fMRI data for predicting social vs. nonsocial interactions.
-            </p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
-            <ul>
-              <li><b>Tools:</b> Python, PyTorch, Keras, Machine Learning, fMRI Analysis</li>
-              <li>Used in NeuroMatch Academy to explore fMRI data and its applications in understanding brain activity patterns.</li>
-            </ul>
-            <div class="card-action">
-              <a href="https://github.com/BrandonCarone/NeuroMatch_Project" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped" data-tooltip="View Source"><i class="fa fa-github"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
+    <ul>
+      <li><b>Carone, B. J.</b>, & Ripollés, P. (2024). <a href="https://ieeexplore.ieee.org/document/10704174?figureId=fig1#fig1" target="_blank">SoundSignature: What Type of Music Do You Like?</a> <i>IEEE International Symposium on the Internet of Sounds (IEEE IS2 2024).</i></li>
+      <br>
+      <li>Murphy, D. H., Schwartz, S. T., Alberts, K. O., Siegel, A. L. M., <b>Carone, B. J.</b>, Castel, A. D., & Drolet, A. (2023). <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/acp.4106" target="_blank">Clinically studied or clinically proven? Memory for claims in print advertisements.</a> <i>Applied Cognitive Psychology, 37</i>(5), 1085–1093.</li>
+      <br>
+      <li>Groves, K., Farbood, M., <b>Carone, B. J.</b>, Ripollés, P.*, Zuanazzi, A.* (2024). Through the lens of music: Imagining movie scenes through soundtrack listening. (<i>Scientific Reports</i>, under review).</li>
+      <br>
+      <li>Rodríguez-Vázquez, R., <b>Carone, B. J.</b>, Groves, K., Namballa, R., Zuanazzi, A. R., Ripollés, P. (2024). Identification of Basic Emotions Through Language Rhythms (in preparation).</li>
+      <br>
+      <li><b>Carone, B. J.</b>, & Ripollés, P. (2024). Striking a Chord: The Neural Mechanisms of Novelty and Abstract Reward in Musical Memory (in preparation).</li>
+      <br>
+      <li><b>Carone, B. J.</b>, & Ripollés, P. (2024). The Effects of Novelty and Abstract Reward on Memory Performance (in preparation).</li>
+    </ul>
   </div>
 </section>
 
+<!-- Seventh Section: Workshops, Presentations, and Media -->
+<section id="workshops-presentations" class="section scrollspy">
+  <h3 class="page-title white-text teal">Talks & Media</h3>
+  <div class="container">
+    <h5>Selected Presentations</h5>
+    <ul>
+      <li><b>Carone, B. J.</b> (2024, October). Music and AI: Theoretical and Practical Perspectives. Guest Lecturer at Queen Mary University of London.</li>
+      <br>
+      <li><b>Carone, B. J.</b> & Ripollés, P. (2024, October). <a href="https://internetofsounds2024.ieee-is2.org/program/accepted-works" target="_blank">SoundSignature: What Type of Music Do You Like?</a> Paper presented at IEEE IS2 2024, Erlangen, Germany.</li>
+      <br>
+      <li><b>Carone, B. J.</b> (2024, July). <a href="https://ccrma.stanford.edu/workshops/deep-learning-for-mir-II" target="_blank">SoundSignature: What Type of Music Do You Like?</a> Guest Lecturer at Stanford CCRMA.</li>
+      <br>
+      <li><b>Carone, B. J.</b>, Abrams, E. B., & Ripollés, P. (2023, November). <a href="https://www.sfn.org/meetings/neuroscience-2023/sessions-and-events" target="_blank">The Effects of Novelty and Abstract Reward on Memory Performance.</a> Poster at Society for Neuroscience, Washington D.C.</li>
+      <br>
+      <li><b>Carone, B. J.</b>, Merritt, V. C., Jurick, S. M., & Jak, A. J. (2021, February). Effects of Major Depressive Disorder on Veterans. Poster at the International Neuropsychological Society, San Diego, CA.</li>
+      <br>
+      <li><b>Carone, B. J.</b>, Siegel, A. L. M., Castel, A. D., & Drolet, A. (2019, May). False memory for print advertisements. Poster presented at multiple conferences.</li>
+    </ul>
 
-<!-- Fifth Section: Skills -->
+    <h5>Media</h5>
+    <ul>
+      <li><b>Carone, B. J.</b>, Zatorre, R.J., (Interviewees) & Zhu, X. (Host). (2022, October 6). <a href="https://www.researchjourney.org/podcast" target="_blank">Cognitive Neuroscience of Music and Memory</a> [Audio Podcast]. Research Journey Initiative.</li>
+      <br>
+      <li><b>Carone, B. J.</b> (Interviewee) & Bowes, P. (Host). (2019, April 4). <a href="http://www.llamapodcast.com/brandon-carone/" target="_blank">Why music helps us age better</a> [Audio Podcast]. Live Long and Master Aging Podcast.</li>
+      <br>
+      <li><b>Carone, B. J.</b>, Rosenstein, C.P., (Interviewees) & Sharp, R. (Producer). (2018, October 10). Music Mends Minds [Radio Show]. BBC Radio 5 Live’s Up All Night with Rhod Sharp.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Eighth Section: Skills -->
 <section id="skills" class="section scrollspy">
   <h3 class="page-title white-text teal">Skills</h3>
   <div class="container">
@@ -654,8 +776,7 @@
   </div>
 </section>
 
-
-<!-- Eighth Section: Honors & Awards -->
+<!-- Ninth Section: Honors & Awards -->
 <section id="honors-awards" class="section scrollspy">
   <h3 class="page-title white-text teal">Honors & Awards</h3>
   <div class="container">
@@ -785,8 +906,63 @@
   </div>
 </section>
 
+<!-- Memberships & Organizations Section -->
+<section id="memberships-organizations" class="section scrollspy">
+  <h3 class="page-title white-text teal">Memberships & Organizations</h3>
+  <div class="container">
 
-<!-- Nine Section: Contact -->
+    <!-- Professional Memberships -->
+    <h5>Professional Memberships</h5>
+    <div class="organization-item">
+      <span class="title">Institute of Electrical and Electronics Engineers (IEEE)</span>
+      <span class="dates">2024 – Present</span>
+    </div>
+    <div class="organization-item">
+      <span class="title">IEEE Communications Society (IEEE ComSoc)</span>
+      <span class="dates">2024 – Present</span>
+    </div>
+    <div class="organization-item">
+      <span class="title">Society for Neuroscience</span>
+      <span class="dates">2023 – Present</span>
+    </div>
+    <div class="organization-item">
+      <span class="title">Cognitive Neuroscience Society</span>
+      <span class="dates">2020 – Present</span>
+    </div>
+    <div class="organization-item">
+      <span class="title">The Society for the Neuroscience of Creativity</span>
+      <span class="dates">2020 – Present</span>
+    </div>
+    <div class="organization-item">
+      <span class="title">Association for Psychological Science (APS)</span>
+      <span class="dates">2017 – Present</span>
+    </div>
+    <div class="organization-item">
+      <span class="title">Society for Music Perception and Cognition</span>
+      <span class="dates">2017 – Present</span>
+    </div>
+
+    <!-- Clubs -->
+    <h5>Clubs</h5>
+    <div class="organization-item">
+      <span class="title">NYU Generative Audio Club</span>
+      <span class="dates">2024 – Present</span>
+    </div>
+    <div class="organization-item">
+      <span class="title">Music & Memory at UCLA (Founder & President)</span>
+      <span class="dates">2017 – 2019</span>
+    </div>
+    <div class="organization-item">
+      <span class="title">Music Cognition Coalition (President and Events Coordinator)</span>
+      <span class="dates">2018 – 2019</span>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Tenth Section: Contact -->
 <section id="contact" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
